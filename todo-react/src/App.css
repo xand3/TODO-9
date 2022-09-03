@@ -96,11 +96,45 @@ fieldset legend {
   color: #707070;
 }
 .products {
-  color: #707070;
   display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
 }
 .card-product {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.product-name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.card-product p {
+  margin-bottom: 5px;
+}
+.card-product button {
+  align-self: center;
+  background-color: #fff;
+  color:  #707070;
+  margin-top: 20px;
+  border: 1px solid #707070;
   width: 200px;
+}
+.atual-price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn {
+  margin-top: 50px;
+}
+.btn button {
+  background-color: #fff;
+  color: #707070;
+  border: 1px solid #707070;
+  width: 300px;
 }
 .footer-content {
   margin-top: 20px;
