@@ -5,6 +5,7 @@
 }
 body {
   background-color: #fff;
+  height: 100%;
 }
 .header {
   display: flex;
@@ -32,7 +33,6 @@ body {
   width: 80%;
   margin: 0 auto;
   padding-top: 350px;
-
   display: flex;
   flex-direction: row;
   color: #707070;
@@ -101,4 +101,59 @@ fieldset legend {
 }
 .card-product {
   width: 200px;
+}
+.footer-content {
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  color: #707070;
+}
+.footer p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-submit {
+  width: 200px;
+  background-color: #fff;
+  color: #707070;
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 40px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+.form-friend {
+  display: flex;
+  flex-direction: column;
+}
+.form-friend input {
+  width: 280px;
+  background-color: #fff;
+  height: 30px;
+}
+.copy {
+  color: #fff;
+  display: flex;
+  width: 100%;
+  background-color: #707070;
+  clip-path: polygon(0 22%, 100% 0, 100% 100%, 0 100%);
+  height: 200px;
+}
+.copy-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  padding-top: 100px;
 }
