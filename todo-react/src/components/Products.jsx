@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 
 export function Products() {
     const [products, setProdutos] = useState([]);
+	const [history, setHistory] = useState([])
 
     const url =
-        "https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=1";
+        "https://frontend-intern-challenge-api.iurykrieger.vercel.app/products?page=";
 
     useEffect(() => {
-        fetch(url)
+        fetch(url + '1')
             .then((res) => res.json())
             .then((data) => setProdutos(data.products));
     }, []);
